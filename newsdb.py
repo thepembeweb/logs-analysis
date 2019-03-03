@@ -47,3 +47,23 @@ def get_popular_authors():
         return results
     except:
         print("Error in returning popular authors")
+
+
+def get_highest_error_day():
+    try:
+        """Return highest error day"""
+        conn, cursor = connect()
+        query = "SELECT to_char(time, 'Mon DD, YYYY') as error_day, \
+        (100*COUNT(CASE WHEN status = '404 NOT FOUND' \
+        THEN id END)::decimal/COUNT(id)) as errors_p \
+        FROM LOG \
+        GROUP BY error_day \
+        HAVING (100*COUNT(CASE WHEN status = '404 NOT FOUND' \
+        THEN id END)::decimal/COUNT(id)) > 1 \
+        ORDER BY errors_p DESC;"
+        cursor.execute(query)
+        results = cursor.fetchall()
+        conn.close()
+        return results
+    except:
+        print("Error in returning highest error day")
