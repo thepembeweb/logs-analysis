@@ -11,3 +11,13 @@ def show_top_three_articles():
         print("\"" + article[0] + "\" - " + str(article[1]) + " Views.")
     except:
         print("Error occurred showing top three articles")
+
+
+def show_popular_authors():
+    try:
+    print("2. Who are the most popular article authors of all time?\n")
+    authors = get_popular_authors()
+    for author in authors:
+        print(author[0] + " - " + str(author[1]) + " Views.")
+    except:
+        print("Error occurred showing popular authors")
