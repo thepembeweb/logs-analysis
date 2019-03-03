@@ -21,3 +21,13 @@ def show_popular_authors():
         print(author[0] + " - " + str(author[1]) + " Views.")
     except:
         print("Error occurred showing popular authors")
+
+
+def show_highest_error_day():
+    try:
+    print("3. On which days did more than 1% of requests lead to errors?\n")
+    error_day = get_highest_error_day()
+    for info in error_day:
+        print(str(info[0]) + " - " + str(round(info[1], 1)) + " % errors.")
+    except:
+        print("Error occurred showing highest error day")
