@@ -6,7 +6,7 @@
 
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 
-The Logs Analysis report will anser the following questions:
+The Logs Analysis report will answer the following questions:
 
 1. What are the most popular three articles of all time? Which articles have been accessed the most? Present this information as a sorted list with the most popular article at the top. 
 
