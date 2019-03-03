@@ -19,9 +19,10 @@ The Logs Analysis report will answer the following questions:
 ### Requirements
 The project uses VirtualBox, Vagrant, Python and PostgreSQL. 
 
-Install [Python 3](https://www.python.org/downloads/)
-Install [VirtualBox](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1)
-Install [Vagrant](https://www.vagrantup.com/downloads.html)
+* Install [Python 3](https://www.python.org/downloads/)
+* Install [VirtualBox](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1)
+* Install [Vagrant](https://www.vagrantup.com/downloads.html)
+
 ### Setup
 
 * Clone the repo `git clone https://github.com/thepembeweb/logs-analysis.git`
