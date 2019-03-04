@@ -8,7 +8,7 @@ def connect(dbname="news"):
         conn = psycopg2.connect("dbname={}".format(dbname))
         cursor = conn.cursor()
         return conn, cursor
-    except:
+    except BaseException:
         print("Error in connecting to database")
 
 
@@ -26,7 +26,7 @@ def get_top_three_articles():
         results = cursor.fetchall()
         conn.close()
         return results
-    except:
+    except BaseException:
         print("Error in returning top three articles")
 
 
@@ -45,7 +45,7 @@ def get_popular_authors():
         results = cursor.fetchall()
         conn.close()
         return results
-    except:
+    except BaseException:
         print("Error in returning popular authors")
 
 
@@ -65,5 +65,5 @@ def get_highest_error_day():
         results = cursor.fetchall()
         conn.close()
         return results
-    except:
+    except BaseException:
         print("Error in returning highest error day")
