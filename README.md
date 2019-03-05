@@ -80,8 +80,13 @@ Reports completed!
 * [VirtualBox](https://www.virtualbox.org/) - The virtualization software used
 * [Vagrant](https://www.vagrantup.com) - The virtual machine environment manager used
 
+## Authors
+
+* **Pemberai Sweto** - *Initial work* - [thepembeweb](https://github.com/thepembeweb)
+
 ## License
 
-MIT  © [Pemberai Sweto](https://github.com/thepembeweb)
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
 
 
