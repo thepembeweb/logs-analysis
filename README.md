@@ -82,7 +82,7 @@ Reports completed!
 
 ## Authors
 
-* **Pemberai Sweto** - *Initial work* - [thepembeweb](https://github.com/thepembeweb)
+* **[Pemberai Sweto](https://github.com/thepembeweb)** - created [Logs Analysis](https://github.com/thepembeweb/logs-analysis)
 
 ## License
 
