@@ -89,5 +89,5 @@ Reports completed!
 [![License](http://img.shields.io/:license-mit-green.svg?style=flat-square)](http://badges.mit-license.org)
 
 - This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-- Copyright 2015 © [Pemberai Sweto](https://github.com/thepembeweb).
+- Copyright 2019 © [Pemberai Sweto](https://github.com/thepembeweb).
 
